@@ -8,6 +8,6 @@ ruby=$(which ruby)
 	$sudo paxctl -cm $ruby
 }
 
-$sudo systemctl --system daemon-reload
+#$sudo systemctl --system daemon-reload
 
 $sudo linux-pax-flags.rb $@
