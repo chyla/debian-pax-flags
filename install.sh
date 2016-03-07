@@ -15,7 +15,7 @@ if [ -!e /etc/apt ]; then
 	exit 5;
 fi
 
-echo "This will automatically install ubuntu-pax-flags, check that ruby is installed and update fstab to support xattr."
+echo "This will automatically install debian-pax-flags, check that ruby is installed and update fstab to support xattr."
 
 echo "Continue? [Y/n] "
 read cont
